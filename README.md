@@ -7,10 +7,10 @@ $ cd docker
 $ docker build ./ -t template_project_pytorch_1_0_1
 
 # run container
-$ sh docker.sh docker
+$ sh run.sh docker
 
 # [optional]run container which use gpu(nvidia-docker)
-$ sh docker.sh nvidia-docker
+$ sh run.sh nvidia-docker
 
 # start jupyter notebook
 $ jupyter notebook --allow-root --port=8888 --ip=0.0.0.0 &
