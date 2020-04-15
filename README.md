@@ -1,10 +1,10 @@
-# template_pytorch_1_0_1
+# template_project_pytorch_1_0_1
 
 ## Getting Started
 ```
 # build container
 $ cd docker
-$ docker build ./ -t template_pytorch_1_0_1
+$ docker build ./ -t template_project_pytorch_1_0_1
 
 # run container
 $ sh docker.sh docker

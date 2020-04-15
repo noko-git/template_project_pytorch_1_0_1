@@ -17,8 +17,8 @@ DOCKER_CMD=$1
 # constant
 SCRIPT_DIR=$(cd $(dirname $0); pwd)
 LOG_FILE=${SCRIPT_DIR}/../logs/docker.log
-CONTAINER_NAME=template_pytorch_1_0_1
-CONTAINER_IMAGE=template_pytorch_1_0_1
+CONTAINER_NAME=template_project_pytorch_1_0_1
+CONTAINER_IMAGE=template_project_pytorch_1_0_1
 HOST_PORT=18888
 CONTAINER_PORT=8888
 
